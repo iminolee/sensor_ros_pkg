@@ -14,7 +14,6 @@ https://wiki.ros.org/noetic/Installation/Ubuntu
 3. Using the terminal, register your personal LiDAR IP on your host PC. <br/>
 https://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16
 
-
 ## Installations
 * LiDAR
 ```
