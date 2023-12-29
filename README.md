@@ -1,7 +1,7 @@
 ## What's in this repo
 This repository contains sensor-ros packages for SCOUT mobile robot.
 
-## sensors
+## Sensors
 * LiDAR
     * Velodyne VLP16
 * Camera
