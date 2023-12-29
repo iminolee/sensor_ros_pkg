@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-## What's in this repo
-This repository contains sensor-ros packages for SCOUT mobile robot.
-=======
 ## Feature Branch Overview
 In this branch, we have updated the image processing of the D435i camera in the SCOUT mobile robot's sensor-ros package. These changes adjust the 'vertical' orientation of the camera and depth images to align with the camera's mounting configuration.
->>>>>>> 8c91b866e008537737b9807fe768374d8220a795
 
 ## Sensors
 * LiDAR
@@ -18,7 +13,6 @@ https://wiki.ros.org/noetic/Installation/Ubuntu
 2. All ros packages are for ROS Noetic ver.
 3. Using the terminal, register your personal LiDAR IP on your host PC. <br/>
 https://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16
-
 
 ## Installations
 * LiDAR
