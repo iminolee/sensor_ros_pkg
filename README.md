@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 ## What's in this repo
 This repository contains sensor-ros packages for SCOUT mobile robot.
+=======
+## Feature Branch Overview
+In this branch, we have updated the image processing of the D435i camera in the SCOUT mobile robot's sensor-ros package. These changes adjust the 'vertical' orientation of the camera and depth images to align with the camera's mounting configuration.
+>>>>>>> 8c91b866e008537737b9807fe768374d8220a795
 
 ## Sensors
 * LiDAR
