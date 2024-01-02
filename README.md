@@ -3,6 +3,7 @@ This repository contains sensor-ros packages for SCOUT mobile robot.
 
 ## Sensors
 * LiDAR
+    * Ouster
     * Velodyne VLP16
 * Camera
     * Intel RealSense D435i
@@ -19,17 +20,32 @@ https://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyn
 * LiDAR
 ```
 sudo apt-get install ros-noetic-velodyne
-sudo apt-get install libpcap-dev
+sudo apt install -y         \
+    ros-noetic_-pcl-ros     \
+    libpcap-dev             \
+    build-essential         \
+    libeigen3-dev           \
+    libjsoncpp-dev          \
+    libspdlog-dev           \
+    libcurl4-openssl-dev    \
+    cmake
 ```
 * Camera
 ```
 sudo apt-get install ros-noetic-realsense2-camera
-sudo apt-get install ros-noetic-imu-tools
+sudo apt-get install ros-noetic-imu-tools   # optional
 ```
 ## Usage Instructions
 To start the LiDAR node in ROS:
 ```
+# Velodyne VLP16
 roslaunch velodyne_pointcloud VLP16_points.launch
+
+# Ouster
+roslaunch ouster_ros driver.launch      \
+    sensor_hostname:=<sensor host name> \
+    metadata:=<json file name>             # optional
+
 ```
 To start the camera node in ROS:
 ```
