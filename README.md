@@ -13,10 +13,10 @@ This repository contains sensor-ros packages for SCOUT mobile robot.
 https://wiki.ros.org/noetic/Installation/Ubuntu
 2. All ros packages are for ROS Noetic ver.
 3. Using the terminal, register your personal LiDAR IP on your host PC. <br/>
-# Velodyne docs
-https://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16
-# Ouster docs
-https://github.com/ouster-lidar/ouster-ros/blob/master/docs/index.rst
+    * Velodyne docs
+    https://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16
+    * Ouster docs
+    https://github.com/ouster-lidar/ouster-ros/blob/master/docs/index.rst
 
 ## Installations
 * LiDAR
